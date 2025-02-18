@@ -36,7 +36,7 @@ class HomeActivity extends StatelessWidget{
               child: Column(
                 children: [
                   Padding(padding: EdgeInsets.all(15),child: TextField(decoration: InputDecoration(border: OutlineInputBorder(),
-                      labelText: 'Email',prefixIcon:Icon(Icons.email) ),),),
+                      labelText: 'Email adress',prefixIcon:Icon(Icons.email) ),),),
                   Padding(padding: EdgeInsets.all(15),child: TextField(decoration: InputDecoration(border: OutlineInputBorder(),
                       labelText: 'phone number',prefixIcon:Icon(Icons.phone) ),),),
                   Padding(padding: EdgeInsets.all(15),child: TextField(decoration: InputDecoration(border: OutlineInputBorder(),
