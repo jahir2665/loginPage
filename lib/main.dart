@@ -24,11 +24,10 @@ class HomeActivity extends StatelessWidget{
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
         Text(
-          'Login',
+          'Enter your login credentials',
           style: TextStyle(
-            fontSize: 35,
+            fontSize: 20,
             color: Colors.teal,
-            fontWeight: FontWeight.bold
           ),
         ),
         Padding(
